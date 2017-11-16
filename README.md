@@ -1,5 +1,7 @@
 # inputmask-core [![Build Status](https://secure.travis-ci.org/insin/inputmask-core.png)](http://travis-ci.org/insin/inputmask-core)
 
+This project is a Fork of [insin/inputmask-core](https://github.com/insin/inputmask-core/)
+
 A standalone input mask implementation, which is independent of any GUI.
 
 `InputMask` encapsulates editing operations on a string which must conform to a fixed-width pattern defining editable positions and the types of characters they may contain, plus optional static characters which may not be edited.
@@ -7,7 +9,7 @@ A standalone input mask implementation, which is independent of any GUI.
 ## Install
 
 ```
-npm install inputmask-core
+npm install inputmask-core-edited
 ```
 
 ## Usage
@@ -15,7 +17,7 @@ npm install inputmask-core
 Importing and creating an instance:
 
 ```javascript
-var InputMask = require('inputmask-core')
+var InputMask = require('inputmask-core-edited')
 
 var mask = new InputMask({pattern: '11/11/1111'})
 ```
@@ -98,6 +100,7 @@ The following format characters define editable parts of the mask:
 * `A` - letter, forced to upper case when entered
 * `*` - alphanumeric
 * `#` - alphanumeric, forced to upper case when entered
+* `?` - Make the character before optional
 
 If you need to include one of these characters as a static part of the mask, you can escape them with a preceding backslash:
 

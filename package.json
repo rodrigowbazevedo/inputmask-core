@@ -1,6 +1,6 @@
 {
-  "name": "inputmask-core",
-  "version": "2.2.0",
+  "name": "inputmask-core-edited",
+  "version": "2.3.0",
   "description": "Standalone input mask implementation, independent of any GUI",
   "main": "lib/index.js",
   "scripts": {
@@ -14,7 +14,7 @@
     "input",
     "mask"
   ],
-  "author": "Jonny Buchanan <jonathan.buchanan@gmail.com>",
+  "author": "Rodrigo Azevedo <rodrigowbazevedo@yahoo.com.br>",
   "license": "MIT",
   "devDependencies": {
     "eslint": "3.5.0",
@@ -26,10 +26,10 @@
   "dependencies": {},
   "repository": {
     "type": "git",
-    "url": "http://github.com/insin/inputmask-core.git"
+    "url": "http://github.com/rodrigowbazevedo/inputmask-core.git"
   },
   "bugs": {
-    "url": "https://github.com/insin/inputmask-core/issues"
+    "url": "https://github.com/rodrigowbazevedo/inputmask-core/issues"
   },
-  "homepage": "https://github.com/insin/inputmask-core"
+  "homepage": "https://github.com/rodrigowbazevedo/inputmask-core"
 }
